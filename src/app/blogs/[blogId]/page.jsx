@@ -33,6 +33,11 @@ const blogs = [
     },
 ];
 
+export const metadata = {
+  title: "Blog",
+  description: "Blog page of the website",
+};
+
 const BlogDetailPage = async ({ params }) => {
     const { blogId } = await params;
     const blog = blogs.find((blog) => blog.id === parseInt(blogId));

@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Blogs",
+  description: "Blogs page of the website",
+};
+
 const BlogsPage = () => {
     
     const blogs = [

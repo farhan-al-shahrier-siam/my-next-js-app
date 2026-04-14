@@ -1,6 +1,11 @@
 import Image from "next/image";
 import spider_man from "../../assets/images/spiderman.jpeg"
 
+export const metadata = {
+  title: "About",
+  description: "About page of the website",
+};
+
 const AboutPage = () => {
     return (
         <div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 const UsersPage = async () => {
     const res = await fetch("https://jsonplaceholder.typicode.com/users");
     const users = await res.json();
-    console.log(users);
+    // console.log(users);
     return (
         <div>
             <h2 className="font-bold text-5xl my-4 text-center">Users </h2>
