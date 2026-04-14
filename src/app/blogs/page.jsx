@@ -43,7 +43,7 @@ const BlogsPage = () => {
             {
                 blogs.map(blog => <div key={blog.id}>
                     <h3 className="text-4xl font-bold mb-2">{blog.title}</h3>
-                    <Link href="" className="hover:bg-amber-300 p-2">Show details</Link>
+                    <Link href={`/blogs/${blog.id}`} className="hover:bg-amber-300 p-2">Show details</Link>
                 </div>)
             }
         </div>
